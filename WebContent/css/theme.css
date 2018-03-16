@@ -2101,7 +2101,7 @@ html[dir="rtl"] #header .header-search .btn-light {
 
 /* Page Header Custom - Create your Own */
 .page-header.custom-product {
-	background-image: url(../img/custom-header-bg.jpg);
+	background-image: url(img/custom-header-bg.jpg);
 	background-repeat: repeat;
 	background-color: #999;
 	border-top: 5px solid #888;

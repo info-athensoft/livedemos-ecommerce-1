@@ -10,7 +10,7 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="inc"/>
-<c:set var="img_dir" value="images"></c:set>
+<c:set var="img_dir" value="demo_images"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -88,6 +88,19 @@
 
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
+		
+		<style>
+		/* Page Header Custom - Create your Own */
+		.page-header.custom-product {
+			background-image: url(${img_dir}/custom-header-bg.jpg);
+			background-repeat: repeat;
+			background-color: #999;
+			border-top: 5px solid #888;
+			padding: 0;
+			overflow: hidden;
+			
+		}
+		</style>
 
 	</head>
 	<body>
@@ -102,12 +115,12 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-7 py-4">
-								<h1>Introducing the new <strong>product</strong>.</h1>
-								<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta.</p>
-								<a href="#" class="btn btn-light btn-lg mb-5">Buy Now!</a> <span class="arrow hlt" style="top: 10px;"></span>
+								<h1>Welcome to our <strong>Live Demos</strong></h1>
+								<p class="lead">Here you may evaluate look and feel, visual effects, interactions,  functionalities and how the website works.</p>
+								<a href="#" class="btn btn-light btn-lg mb-5">Contact us Now!</a> <span class="arrow hlt" style="top: 10px;"></span>
 							</div>
 							<div class="col-sm-5 align-items-end justify-content-end d-flex">
-								<!-- <img class="img-fluid" alt="" src="/img/custom-header.png">  -->
+								<!-- <img class="img-fluid" alt="" src="${img_dir}/custom-header-bg.jpg"> -->
 							</div>
 						</div>
 					</div>
@@ -119,6 +132,7 @@
 
 					<div class="row">
 						<div class="col">
+							<img class="img-fluid" alt="" src="${img_dir}/custom-header-bg.jpg">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
 							<p>Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>

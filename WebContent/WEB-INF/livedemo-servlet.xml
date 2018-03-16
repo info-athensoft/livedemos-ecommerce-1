@@ -44,7 +44,7 @@
 	
 	
 	<!-- static resources -->
-	<mvc:resources mapping="/images/**" location="images/" />
+	<mvc:resources mapping="/demo_images/**" location="demo_images/" />
 	<mvc:resources mapping="/img/**" location="img/" />
 	<mvc:resources mapping="/css/**" location="css/" />
 	<mvc:resources mapping="/js/**" location="js/" />
@@ -52,5 +52,4 @@
 	<mvc:resources mapping="/vendor/**" location="vendor/" />
 	<mvc:resources mapping="/video/**" location="video/" />
 	<mvc:resources mapping="/resources/**" location="resources/" />
-	<mvc:resources mapping="/sitemap.xml" location="/" />
 </beans>
