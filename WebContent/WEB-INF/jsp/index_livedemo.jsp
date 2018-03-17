@@ -5,12 +5,13 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <!-- global variables settings -->
-<c:set var="webapp_name" value=""/>
+<c:set var="webapp_name" value="/livedemos/ecommerce/1"/>
 <!-- END global variables settings -->
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="inc"/>
-<c:set var="img_dir" value="demo_images"></c:set>
+<c:set var="demo_img_dir" value="/demo_images"/>
+<c:set var="img_dir" value="/images"/>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -92,7 +93,7 @@
 		<style>
 		/* Page Header Custom - Create your Own */
 		.page-header.custom-product {
-			background-image: url(${img_dir}/custom-header-bg.jpg);
+			background-image: url(${webapp_name}/${demo_img_dir}/custom-header-bg.jpg);
 			background-repeat: repeat;
 			background-color: #999;
 			border-top: 5px solid #888;
@@ -132,8 +133,15 @@
 
 					<div class="row">
 						<div class="col">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
-							<p>Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci.</p>
+							<a class="open-demo-options btn btn-3d btn-xl btn-quaternary mt-3 mb-2" href="${webapp_name}/shop-sidebar.html">VIEW DEMO <i class="ml-3 fa fa-long-arrow-right"></i></a>
+							<p></p>
+							<h4><a href="${webapp_name}/shop-sidebar.html">Product list</a></h4>
+							<p>Your clients may browse products listing in grid style. Product image, name, previous price, current or promotion price, on sale badge are presented precisely and clearly. Clients are also free to add their desired or interested items into shopping cart. </p>
+							<p>In addition, a side-bar section is there for visitors to search and filter by keywords, tags and etc. Last but not least, our recommendations are presented to encourage clients to make purchase. </p>
+							<h4>Shopping cart</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta2. </p>
+							<h4>Checkout process</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta1. </p>
 						</div>
 					</div>
 
