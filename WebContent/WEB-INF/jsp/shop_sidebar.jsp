@@ -5,7 +5,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <!-- global variables settings -->
-<c:set var="webapp_name" value=""/>
+<c:set var="webapp_name" value="/livedemos/ecommerce/1"/>
 <!-- END global variables settings -->
 
 <!-- page variables  -->
@@ -121,7 +121,7 @@
 							<div class="masonry-loader masonry-loader-showing">
 								<div class="row products product-thumb-info-list mt-3" data-plugin-masonry data-plugin-options="{'layoutMode': 'fitRows'}">
 									<div class="col-sm-6 col-lg-4 product">
-										<a href="shop-product-sidebar.html">
+										<a href="${webapp_name}/shop-product-sidebar.html">
 											<span class="onsale">Sale!</span>
 										</a>
 										<span class="product-thumb-info">

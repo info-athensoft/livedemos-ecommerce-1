@@ -6,6 +6,7 @@
 
 <!-- page variables  -->
 <c:set var="img_dir" value="/images"></c:set>
+<c:set var="webapp_name" value="/livedemos/ecommerce/1"/>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -147,7 +148,7 @@
 											<td class="actions" colspan="6">
 												<div class="actions-continue">
 													<button type="submit" class="btn btn-light">View All</button>
-													<button type="submit" class="btn float-right btn-primary">Proceed to Checkout <i class="fa fa-angle-right ml-1"></i></button>
+													<button onclick="proceedToCheckout();" id="btn_proceedToCheckout" class="btn float-right btn-primary">Proceed to Checkout <i class="fa fa-angle-right ml-1"></i></button>
 												</div>
 											</td>
 										</tr>
@@ -194,4 +195,12 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-113930092-1');
+</script>
+
+<script>
+	function proceedToCheckout(){
+		//alert("ok");
+		var webapp = "${webapp_name}";
+		window.location.href = webapp+"/shop-checkout.html";
+	}
 </script>
