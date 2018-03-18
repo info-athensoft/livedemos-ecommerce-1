@@ -6,6 +6,7 @@
 
 <!-- global variables settings -->
 <c:set var="webapp_name" value="/livedemos/ecommerce/1"/>
+<c:set var="demo_img_dir" value="/livedemos/ecommerce/1/demo_images/prod"/>
 <!-- END global variables settings -->
 
 <!-- page variables  -->
@@ -274,58 +275,58 @@
 													<tr class="cart_table_item">
 														<td class="product-thumbnail">
 															<a href="shop-product-sidebar.html">
-																<img width="100" height="100" alt="" class="img-fluid" src="img/products/product-1.jpg">
+																<img width="100" height="100" alt="" class="img-fluid" src="${demo_img_dir}/1/1.jpg">
 															</a>
 														</td>
 														<td class="product-name">
-															<a href="shop-product-sidebar.html">Photo Camera</a>
+															<a href="shop-product-sidebar.html">Mini Plant 1</a>
 														</td>
 														<td class="product-price">
-															<span class="amount">$299</span>
+															<span class="amount">$314</span>
 														</td>
 														<td class="product-quantity">
 															1
 														</td>
 														<td class="product-subtotal">
-															<span class="amount">$299</span>
+															<span class="amount">$314</span>
 														</td>
 													</tr>
 													<tr class="cart_table_item">
 														<td class="product-thumbnail">
 															<a href="shop-product-sidebar.html">
-																<img width="100" height="100" alt="" class="img-fluid" src="img/products/product-2.jpg">
+																<img width="100" height="100" alt="" class="img-fluid" src="${demo_img_dir}/1/2.jpg">
 															</a>
 														</td>
 														<td class="product-name">
-															<a href="shop-product-sidebar.html">Golf Bag</a>
+															<a href="shop-product-sidebar.html">Mini Plant 2</a>
 														</td>
 														<td class="product-price">
-															<span class="amount">$72</span>
+															<span class="amount">$314</span>
 														</td>
 														<td class="product-quantity">
 															1
 														</td>
 														<td class="product-subtotal">
-															<span class="amount">$72</span>
+															<span class="amount">$314</span>
 														</td>
 													</tr>
 													<tr class="cart_table_item">
 														<td class="product-thumbnail">
 															<a href="shop-product-sidebar.html">
-																<img width="100" height="100" alt="" class="img-fluid" src="img/products/product-3.jpg">
+																<img width="100" height="100" alt="" class="img-fluid" src="${demo_img_dir}/1/3.jpg">
 															</a>
 														</td>
 														<td class="product-name">
-															<a href="shop-product-sidebar.html">Workout</a>
+															<a href="shop-product-sidebar.html">Mini Plant 3</a>
 														</td>
 														<td class="product-price">
-															<span class="amount">$60</span>
+															<span class="amount">$314</span>
 														</td>
 														<td class="product-quantity">
 															1
 														</td>
 														<td class="product-subtotal">
-															<span class="amount">$60</span>
+															<span class="amount">$314</span>
 														</td>
 													</tr>
 												</tbody>
@@ -341,7 +342,7 @@
 															<strong>Cart Subtotal</strong>
 														</th>
 														<td>
-															<strong><span class="amount">$431</span></strong>
+															<strong><span class="amount">$942</span></strong>
 														</td>
 													</tr>
 													<tr class="shipping">
@@ -357,7 +358,7 @@
 															<strong>Order Total</strong>
 														</th>
 														<td>
-															<strong><span class="amount">$431</span></strong>
+															<strong><span class="amount">$942</span></strong>
 														</td>
 													</tr>
 												</tbody>
@@ -415,7 +416,7 @@
 											<strong>Cart Subtotal</strong>
 										</th>
 										<td>
-											<strong><span class="amount">$431</span></strong>
+											<strong><span class="amount">$942</span></strong>
 										</td>
 									</tr>
 									<tr class="shipping">
@@ -431,7 +432,7 @@
 											<strong>Order Total</strong>
 										</th>
 										<td>
-											<strong><span class="amount">$431</span></strong>
+											<strong><span class="amount">$942</span></strong>
 										</td>
 									</tr>
 								</tbody>

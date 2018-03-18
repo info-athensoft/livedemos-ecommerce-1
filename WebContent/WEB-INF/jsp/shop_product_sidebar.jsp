@@ -6,6 +6,7 @@
 
 <!-- global variables settings -->
 <c:set var="webapp_name" value="/livedemos/ecommerce/1"/>
+<c:set var="demo_img_dir" value="/livedemos/ecommerce/1/demo_images/prod"/>
 <!-- END global variables settings -->
 
 <!-- page variables  -->
@@ -115,13 +116,13 @@
 
 									<div class="owl-carousel owl-theme" data-plugin-options="{'items': 1, 'margin': 10}">
 										<div>
-											<img alt="" height="300" class="img-fluid" src="img/products/product-7.jpg">
+											<img alt="" height="300" class="img-fluid" src="${demo_img_dir}/1/4.jpg">
 										</div>
 										<div>
-											<img alt="" height="300" class="img-fluid" src="img/products/product-7-2.jpg">
+											<img alt="" height="300" class="img-fluid" src="${demo_img_dir}/1/5.jpg">
 										</div>
 										<div>
-											<img alt="" height="300" class="img-fluid" src="img/products/product-7-3.jpg">
+											<img alt="" height="300" class="img-fluid" src="${demo_img_dir}/1/6.jpg">
 										</div>
 									</div>
 
@@ -131,7 +132,7 @@
 
 									<div class="summary entry-summary">
 
-										<h1 class="mb-0"><strong>Blue Ladies Handbag</strong></h1>
+										<h1 class="mb-0"><strong> Mini Plant </strong></h1>
 
 										<div class="review_num">
 											<span class="count" itemprop="ratingCount">2</span> reviews
@@ -142,7 +143,7 @@
 										</div>
 
 										<p class="price">
-											<span class="amount">$22</span>
+											<span class="amount">$314</span>
 										</p>
 
 										<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus. </p>
@@ -153,11 +154,11 @@
 												<input type="text" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
 												<input type="button" class="plus" value="+">
 											</div>
-											<button href="#" class="btn btn-primary pt-2 pb-2 pr-3 pl-3">Add to cart</button>
+											<button onclick="addToCart(); return false;" class="btn btn-primary pt-2 pb-2 pr-3 pl-3">Add to cart</button>
 										</form>
 
 										<div class="product_meta">
-											<span class="posted_in">Categories: <a rel="tag" href="#">Accessories</a>, <a rel="tag" href="#">Bags</a>.</span>
+											<span class="posted_in">Categories: <a rel="tag" href="#">Artificial</a>, <a rel="tag" href="#">Mini Plant</a> </span>
 										</div>
 
 									</div>
@@ -286,15 +287,15 @@
 													<span class="product-thumb-info-act-left"><em>View</em></span>
 													<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 												</span>
-												<img alt="" class="img-fluid" src="img/products/product-1.jpg">
+												<img alt="" class="img-fluid" src="${demo_img_dir}/1/6.jpg">
 											</span>
 										</a>
 										<span class="product-thumb-info-content">
 											<a href="shop-product-sidebar.html">
-												<h4>Photo Camera</h4>
+												<h4>Mini Plant 6</h4>
 												<span class="price">
-													<del><span class="amount">$325</span></del>
-													<ins><span class="amount">$299</span></ins>
+													<del><span class="amount">$328</span></del>
+													<ins><span class="amount">$314</span></ins>
 												</span>
 											</a>
 										</span>
@@ -311,14 +312,14 @@
 													<span class="product-thumb-info-act-left"><em>View</em></span>
 													<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 												</span>
-												<img alt="" class="img-fluid" src="img/products/product-2.jpg">
+												<img alt="" class="img-fluid" src="${demo_img_dir}/1/7.jpg">
 											</span>
 										</a>
 										<span class="product-thumb-info-content">
 											<a href="shop-product-sidebar.html">
-												<h4>Golf Bag</h4>
+												<h4>Mini Plant 7</h4>
 												<span class="price">
-													<span class="amount">$72</span>
+													<span class="amount">$314</span>
 												</span>
 											</a>
 										</span>
@@ -335,14 +336,14 @@
 													<span class="product-thumb-info-act-left"><em>View</em></span>
 													<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 												</span>
-												<img alt="" class="img-fluid" src="img/products/product-3.jpg">
+												<img alt="" class="img-fluid" src="${demo_img_dir}/1/8.jpg">
 											</span>
 										</a>
 										<span class="product-thumb-info-content">
 											<a href="shop-product-sidebar.html">
-												<h4>Workout</h4>
+												<h4>Mini Plant 8</h4>
 												<span class="price">
-													<span class="amount">$60</span>
+													<span class="amount">$314</span>
 												</span>
 											</a>
 										</span>
@@ -359,14 +360,14 @@
 													<span class="product-thumb-info-act-left"><em>View</em></span>
 													<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 												</span>
-												<img alt="" class="img-fluid" src="img/products/product-4.jpg">
+												<img alt="" class="img-fluid" src="${demo_img_dir}/1/9.jpg">
 											</span>
 										</a>
 										<span class="product-thumb-info-content">
 											<a href="shop-product-sidebar.html">
-												<h4>Luxury bag</h4>
+												<h4>Mini Plant 9</h4>
 												<span class="price">
-													<span class="amount">$199</span>
+													<span class="amount">$314</span>
 												</span>
 											</a>
 										</span>
@@ -413,14 +414,14 @@
 										<div class="post-image">
 											<div class="img-thumbnail d-block">
 												<a href="shop-product-sidebar.html">
-													<img alt="" width="60" height="60" class="img-fluid" src="img/products/product-1.jpg">
+													<img alt="" width="60" height="60" class="img-fluid" src="${demo_img_dir}/1/1.jpg">
 												</a>
 											</div>
 										</div>
 										<div class="post-info">
-											<a href="shop-product-sidebar.html">Photo Camera</a>
+											<a href="shop-product-sidebar.html">Mini Plant 1</a>
 											<div class="post-meta">
-												$299
+												$314
 											</div>
 										</div>
 									</li>
@@ -428,14 +429,14 @@
 										<div class="post-image">
 											<div class="img-thumbnail d-block">
 												<a href="shop-product-sidebar.html">
-													<img alt="" width="60" height="60" class="img-fluid" src="img/products/product-2.jpg">
+													<img alt="" width="60" height="60" class="img-fluid" src="${demo_img_dir}/1/2.jpg">
 												</a>
 											</div>
 										</div>
 										<div class="post-info">
-											<a href="shop-product-sidebar.html">Golf Bag</a>
+											<a href="shop-product-sidebar.html">Mini Plant 2</a>
 											<div class="post-meta">
-												$72
+												$314
 											</div>
 										</div>
 									</li>
@@ -443,14 +444,14 @@
 										<div class="post-image">
 											<div class="img-thumbnail d-block">
 												<a href="shop-product-sidebar.html">
-													<img alt="" width="60" height="60" class="img-fluid" src="img/products/product-3.jpg">
+													<img alt="" width="60" height="60" class="img-fluid" src="${demo_img_dir}/1/3.jpg">
 												</a>
 											</div>
 										</div>
 										<div class="post-info">
-											<a href="shop-product-sidebar.html">Workout</a>
+											<a href="shop-product-sidebar.html">Mini Plant 3</a>
 											<div class="post-meta">
-												$60
+												$314
 											</div>
 										</div>
 									</li>
@@ -510,5 +511,16 @@
 			ga('send', 'pageview');
 		</script>
 		 -->
+		 
+		 <script>
+		 function addToCart(){
+			 
+			 var url = "${webapp_name}/shop-cart.html";
+			 //alert("addToCart "+url);
+			 window.location.href = url;
+		 }
+		 
+		 
+		 </script>
 	</body>
 </html>

@@ -10,7 +10,7 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="inc"/>
-<c:set var="demo_img_dir" value="/demo_images/prod"/>
+<c:set var="demo_img_dir" value="/livedemos/ecommerce/1/demo_images/prod"/>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -165,9 +165,10 @@
 											</a>
 											<span class="product-thumb-info-content">
 												<a href="shop-product-sidebar.html">
-													<h4 class="heading-primary">Golf Bag</h4>
+													<h4 class="heading-primary">Mini Plant 2</h4>
 													<span class="price">
-														<span class="amount">$72</span>
+														<del><span class="amount">$328</span></del>
+														<ins><span class="amount">$314</span></ins>
 													</span>
 												</a>
 											</span>
@@ -189,9 +190,9 @@
 											</a>
 											<span class="product-thumb-info-content">
 												<a href="shop-product-sidebar.html">
-													<h4 class="heading-primary">Workout</h4>
+													<h4 class="heading-primary">Mini Plant 3</h4>
 													<span class="price">
-														<span class="amount">$60</span>
+														<span class="amount">$314</span>
 													</span>
 												</a>
 											</span>
@@ -213,9 +214,9 @@
 											</a>
 											<span class="product-thumb-info-content">
 												<a href="shop-product-sidebar.html">
-													<h4 class="heading-primary">Luxury bag</h4>
+													<h4 class="heading-primary">Mini Plant 4</h4>
 													<span class="price">
-														<span class="amount">$199</span>
+														<span class="amount">$314</span>
 													</span>
 												</a>
 											</span>
@@ -237,9 +238,9 @@
 											</a>
 											<span class="product-thumb-info-content">
 												<a href="shop-product-sidebar.html">
-													<h4 class="heading-primary">Ladies' handbag</h4>
+													<h4 class="heading-primary">Mini Plant 5</h4>
 													<span class="price">
-														<span class="amount">$189</span>
+														<span class="amount">$314</span>
 													</span>
 												</a>
 											</span>
@@ -264,10 +265,10 @@
 											</a>
 											<span class="product-thumb-info-content">
 												<a href="shop-product-sidebar.html">
-													<h4 class="heading-primary">Baseball Cap</h4>
+													<h4 class="heading-primary">Mini Plant 6</h4>
 													<span class="price">
-														<del><span class="amount">$25</span></del>
-														<ins><span class="amount">$22</span></ins>
+														<del><span class="amount">$328</span></del>
+														<ins><span class="amount">$314</span></ins>
 													</span>
 												</a>
 											</span>
@@ -289,9 +290,9 @@
 											</a>
 											<span class="product-thumb-info-content">
 												<a href="shop-product-sidebar.html">
-													<h4 class="heading-primary">Blue Ladies Handbag</h4>
+													<h4 class="heading-primary">Mini Plant 7</h4>
 													<span class="price">
-														<span class="amount">$290</span>
+														<span class="amount">$314</span>
 													</span>
 												</a>
 											</span>
@@ -313,9 +314,9 @@
 											</a>
 											<span class="product-thumb-info-content">
 												<a href="shop-product-sidebar.html">
-													<h4 class="heading-primary">Military Rucksack</h4>
+													<h4 class="heading-primary">Mini Plant 8</h4>
 													<span class="price">
-														<span class="amount">$49</span>
+														<span class="amount">$314</span>
 													</span>
 												</a>
 											</span>
@@ -340,10 +341,10 @@
 											</a>
 											<span class="product-thumb-info-content">
 												<a href="shop-product-sidebar.html">
-													<h4 class="heading-primary">Baseball</h4>
+													<h4 class="heading-primary">Mini Plant 9</h4>
 													<span class="price">
-														<del><span class="amount">$15</span></del>
-														<ins><span class="amount">$12</span></ins>
+														<del><span class="amount">$328</span></del>
+														<ins><span class="amount">$314</span></ins>
 													</span>
 												</a>
 											</span>
@@ -380,20 +381,15 @@
 
 								<h5 class="heading-primary">Tags</h5>
 
-								<a href="#"><span class="badge badge-dark">Nike</span></a>
-								<a href="#"><span class="badge badge-dark">Travel</span></a>
-								<a href="#"><span class="badge badge-dark">Sport</span></a>
-								<a href="#"><span class="badge badge-dark">TV</span></a>
-								<a href="#"><span class="badge badge-dark">Books</span></a>
-								<a href="#"><span class="badge badge-dark">Tech</span></a>
-								<a href="#"><span class="badge badge-dark">Adidas</span></a>
-								<a href="#"><span class="badge badge-dark">Promo</span></a>
-								<a href="#"><span class="badge badge-dark">Reading</span></a>
-								<a href="#"><span class="badge badge-dark">Social</span></a>
-								<a href="#"><span class="badge badge-dark">Books</span></a>
-								<a href="#"><span class="badge badge-dark">Tech</span></a>
-								<a href="#"><span class="badge badge-dark">New</span></a>
-
+								<a href="#"><span class="badge badge-dark">Artificial</span></a>
+								<a href="#"><span class="badge badge-dark">Glass Vase</span></a>
+								<a href="#"><span class="badge badge-dark">Candles</span></a>
+								<a href="#"><span class="badge badge-dark">Feather</span></a>
+								<a href="#"><span class="badge badge-dark">Decoration</span></a>
+								<a href="#"><span class="badge badge-dark">Ceramic</span></a>
+								<a href="#"><span class="badge badge-dark">Planter</span></a>
+								<a href="#"><span class="badge badge-dark">Flowers</span></a>
+								<a href="#"><span class="badge badge-dark">Wedding</span></a>
 								<hr>
 
 								<h5 class="heading-primary">Top Rated Products</h5>
@@ -402,14 +398,14 @@
 										<div class="post-image">
 											<div class="img-thumbnail d-block">
 												<a href="shop-product-sidebar.html">
-													<img alt="" width="60" height="60" class="img-fluid" src="img/products/product-1.jpg">
+													<img alt="" width="60" height="60" class="img-fluid" src="${demo_img_dir}/1/4.jpg">
 												</a>
 											</div>
 										</div>
 										<div class="post-info">
-											<a href="shop-product-sidebar.html">Photo Camera</a>
+											<a href="shop-product-sidebar.html">Mini Plant 5</a>
 											<div class="post-meta">
-												$299
+												$314
 											</div>
 										</div>
 									</li>
@@ -417,14 +413,14 @@
 										<div class="post-image">
 											<div class="img-thumbnail d-block">
 												<a href="shop-product-sidebar.html">
-													<img alt="" width="60" height="60" class="img-fluid" src="img/products/product-2.jpg">
+													<img alt="" width="60" height="60" class="img-fluid" src="${demo_img_dir}/1/5.jpg">
 												</a>
 											</div>
 										</div>
 										<div class="post-info">
-											<a href="shop-product-sidebar.html">Golf Bag</a>
+											<a href="shop-product-sidebar.html">Mini Plant 5</a>
 											<div class="post-meta">
-												$72
+												$314
 											</div>
 										</div>
 									</li>
@@ -432,14 +428,14 @@
 										<div class="post-image">
 											<div class="img-thumbnail d-block">
 												<a href="shop-product-sidebar.html">
-													<img alt="" width="60" height="60" class="img-fluid" src="img/products/product-3.jpg">
+													<img alt="" width="60" height="60" class="img-fluid" src="${demo_img_dir}/1/6.jpg">
 												</a>
 											</div>
 										</div>
 										<div class="post-info">
-											<a href="shop-product-sidebar.html">Workout</a>
+											<a href="shop-product-sidebar.html">Mini Plant 6</a>
 											<div class="post-meta">
-												$60
+												$314
 											</div>
 										</div>
 									</li>

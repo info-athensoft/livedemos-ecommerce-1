@@ -7,6 +7,7 @@
 <!-- page variables  -->
 <c:set var="img_dir" value="/images"></c:set>
 <c:set var="webapp_name" value="/livedemos/ecommerce/1"/>
+<c:set var="demo_img_dir" value="/livedemos/ecommerce/1/demo_images/prod"/>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -23,9 +24,10 @@
 		<nav class="collapse">
 			<ul class="nav nav-pills" id="mainNav">
 			
-				<li class=""><a class="nav-link active" href="/index.html?lang=${loc}"> <spring:message code="menu-home"/> </a></li>
+				<li class=""><a class="nav-link active" href="${webapp_name}/?lang=${loc}"> <spring:message code="menu-home"/> </a></li>
 				
 				<!-- menu - brands -->
+				<!-- 
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="#?lang=${loc}"> Brands </a>
 					<ul class="dropdown-menu">
@@ -33,19 +35,22 @@
 						<li><a class="dropdown-item" href="#?lang=${loc}" target="_blank"> Brand 2 </a></li>
 					</ul>
 				</li>
-				
+				 -->
 				
 				<!-- menu - category -->
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> Category </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#?lang=${loc}" target="_blank"> Category 1 </a></li>
-						<li><a class="dropdown-item" href="#?lang=${loc}" target="_blank"> Category 2 </a></li>
+						<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}" target="_blank"> Category 1 </a></li>
+						<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}" target="_blank"> Category 2 </a></li>
+						<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}" target="_blank"> Category 3 </a></li>
+						<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}" target="_blank"> Category 4 </a></li>
 					</ul>
 				</li>
 				
 				
 				<!-- menu - new-collection -->
+				<!-- 
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> New collection </a>
 					<ul class="dropdown-menu">
@@ -53,9 +58,10 @@
 						<li><a class="dropdown-item" href="#?lang=${loc}" target="_blank"> Collection 2 </a></li>
 					</ul>
 				</li>
-				
+				 -->
 				
 				<!-- menu - Trends -->
+				<!-- 
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> Trends </a>
 					<ul class="dropdown-menu">
@@ -63,11 +69,11 @@
 						<li><a class="dropdown-item" href="#?lang=${loc}" target="_blank"> Trend 2 </a></li>
 					</ul>
 				</li>
-				
+				 -->
 				
 				<!-- menu - category -->
 				<li class="dropdown dropdown-mega">
-					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> Category Mega </a>
+					<a class="dropdown-item dropdown-toggle" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Category Mega </a>
 					<ul class="dropdown-menu">
 						<li>
 							<div class="dropdown-mega-content">
@@ -75,43 +81,42 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Brands</span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Brand 1 <span class="tip">new</span></a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Brand 2 </a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Brand 3 </a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Brand 4 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Brand 1 <span class="tip">new</span></a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Brand 2 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Brand 3 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Brand 4 </a></li>
 										</ul>
 									</div>
 									
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Category</span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Category 1 <span class="tip">new</span></a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Category 2 </a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Category 3 </a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Category 4 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Category 1 <span class="tip">new</span></a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Category 2 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Category 3 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Category 4 </a></li>
 										</ul>
 									</div>
 									
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">New collection</span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Collection 1 <span class="tip">new</span></a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Collection 2 </a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Collection 3 </a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Collection 4 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Collection 1 <span class="tip">new</span></a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Collection 2 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Collection 3 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Collection 4 </a></li>
 										</ul>
 									</div>
 									
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Trends</span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Trend 1 <span class="tip">new</span></a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Trend 2 </a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Trend 3 </a></li>
-											<li><a class="dropdown-item" href="#?lang=${loc}"> Trend 4 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Trend 1 <span class="tip">new</span></a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Trend 2 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Trend 3 </a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/shop-sidebar.html?lang=${loc}"> Trend 4 </a></li>
 										</ul>
 									</div>
-									
 									
 								</div>
 							</div>
@@ -122,7 +127,7 @@
 				<!-- menu - cart -->
 				<li class="dropdown dropdown-mega dropdown-mega-shop" id="headerShop">
 					<a class="dropdown-item dropdown-toggle" href="page-login.html">
-						<i class="fa fa-user mr-1"></i> Cart (1) - $299
+						<i class="fa fa-user mr-1"></i> Cart (3) - $942
 					</a>
 					<ul class="dropdown-menu">
 						<li>
@@ -132,11 +137,11 @@
 										<tr>
 											<td class="product-thumbnail">
 												<a href="shop-product-sidebar.html">
-													<img width="100" height="100" alt="" class="img-fluid" src="img/products/product-1.jpg">
+													<img width="100" height="100" alt="" class="img-fluid" src="${demo_img_dir}/1/1.jpg">
 												</a>
 											</td>
 											<td class="product-name">
-												<a href="shop-product-sidebar.html">Photo Camera<br><span class="amount"><strong>$299</strong></span></a>
+												<a href="shop-product-sidebar.html">Mini Plant 1<br><span class="amount"><strong>$314</strong></span></a>
 											</td>
 											<td class="product-actions">
 												<a title="Remove this item" class="remove" href="#">
@@ -147,7 +152,7 @@
 										<tr>
 											<td class="actions" colspan="6">
 												<div class="actions-continue">
-													<button type="submit" class="btn btn-light">View All</button>
+													<button onclick="viewShopCart();" class="btn btn-light">View All</button>
 													<button onclick="proceedToCheckout();" id="btn_proceedToCheckout" class="btn float-right btn-primary">Proceed to Checkout <i class="fa fa-angle-right ml-1"></i></button>
 												</div>
 											</td>
@@ -202,5 +207,11 @@
 		//alert("ok");
 		var webapp = "${webapp_name}";
 		window.location.href = webapp+"/shop-checkout.html";
+	}
+	
+	function viewShopCart(){
+		//alert("ok");
+		var webapp = "${webapp_name}";
+		window.location.href = webapp+"/shop-cart.html";
 	}
 </script>
