@@ -118,7 +118,7 @@
 							<div class="col-sm-7 py-4">
 								<h1>Welcome to our <strong>Live Demos</strong></h1>
 								<p class="lead">Here you may evaluate look and feel, visual effects, interactions,  functionalities and how the website works.</p>
-								<a href="#" class="btn btn-light btn-lg mb-5">Contact us Now!</a> <span class="arrow hlt" style="top: 10px;"></span>
+								<a href="${webapp_name}/shop-sidebar.html" class="btn btn-light btn-lg mb-5">VIEW DEMO</a> <span class="arrow hlt" style="top: 10px;"></span>
 							</div>
 							<div class="col-sm-5 align-items-end justify-content-end d-flex">
 								<!-- <img class="img-fluid" alt="" src="${img_dir}/custom-header-bg.jpg"> -->
@@ -133,15 +133,18 @@
 
 					<div class="row">
 						<div class="col">
-							<a class="open-demo-options btn btn-3d btn-xl btn-quaternary mt-3 mb-2" href="${webapp_name}/shop-sidebar.html">VIEW DEMO <i class="ml-3 fa fa-long-arrow-right"></i></a>
-							<p></p>
-							<h4><a href="${webapp_name}/shop-sidebar.html">Product list</a></h4>
+							<h4>Product list</h4>
 							<p>Your clients may browse products listing in grid style. Product image, name, previous price, current or promotion price, on sale badge are presented precisely and clearly. Clients are also free to add their desired or interested items into shopping cart. </p>
 							<p>In addition, a side-bar section is there for visitors to search and filter by keywords, tags and etc. Last but not least, our recommendations are presented to encourage clients to make purchase. </p>
 							<h4>Shopping cart</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta2. </p>
+							<p>Clients are free to select their desired products into the shopping cart from both product list page and product detail page.</p>
 							<h4>Checkout process</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta1. </p>
+							<p>Once clients finish choosing products, they come up with summary of shopping cart. If there is no problem with sub-total and freight, clients then step into checkout process to fill up with billing address, shipping address as well as payment review. The last step is to place order with payment.</p>
+							<h4>Payment method</h4>
+							<p>Payment link is generated with the total amount of shopping cart.</p>
+							
+							<p></p>
+							<a class="open-demo-options btn btn-3d btn-xl btn-quaternary mt-3 mb-2" href="${webapp_name}/shop-sidebar.html">VIEW DEMO <i class="ml-3 fa fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 

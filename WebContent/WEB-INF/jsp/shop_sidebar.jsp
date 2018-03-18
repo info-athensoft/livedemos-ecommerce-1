@@ -10,6 +10,7 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="inc"/>
+<c:set var="demo_img_dir" value="/demo_images/prod"/>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -112,9 +113,9 @@
 						<div class="col-lg-9">
 
 							<div class="row">
-								<div class="col-lg-6">
-									<h1 class="mb-0"><strong>Shop</strong></h1>
-									<p>Showing 1–9 of 25 results.</p>
+								<div class="col-lg-12">
+									<h2 class="mb-0"><strong>Artificial Mini Plant</strong></h2>
+									<p>Showing 1–9 of 25 results. All products are sample only for demonstration and every price is not real.</p>
 								</div>
 							</div>
 
@@ -134,15 +135,15 @@
 														<span class="product-thumb-info-act-left"><em>View</em></span>
 														<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 													</span>
-													<img alt="" class="img-fluid" src="img/products/product-1.jpg">
+													<img alt="" class="img-fluid" src="${demo_img_dir}/1/1.jpg">
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
 												<a href="shop-product-sidebar.html">
-													<h4 class="heading-primary">Photo Camera</h4>
+													<h4 class="heading-primary">Mini Plant 1</h4>
 													<span class="price">
-														<del><span class="amount">$325</span></del>
-														<ins><span class="amount">$299</span></ins>
+														<del><span class="amount">$328</span></del>
+														<ins><span class="amount">$314</span></ins>
 													</span>
 												</a>
 											</span>
@@ -159,7 +160,7 @@
 														<span class="product-thumb-info-act-left"><em>View</em></span>
 														<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 													</span>
-													<img alt="" class="img-fluid" src="img/products/product-2.jpg">
+													<img alt="" class="img-fluid" src="${demo_img_dir}/1/2.jpg">
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
@@ -183,7 +184,7 @@
 														<span class="product-thumb-info-act-left"><em>View</em></span>
 														<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 													</span>
-													<img alt="" class="img-fluid" src="img/products/product-3.jpg">
+													<img alt="" class="img-fluid" src="${demo_img_dir}/1/3.jpg">
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
@@ -207,7 +208,7 @@
 														<span class="product-thumb-info-act-left"><em>View</em></span>
 														<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 													</span>
-													<img alt="" class="img-fluid" src="img/products/product-4.jpg">
+													<img alt="" class="img-fluid" src="${demo_img_dir}/1/4.jpg">
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
@@ -231,7 +232,7 @@
 														<span class="product-thumb-info-act-left"><em>View</em></span>
 														<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 													</span>
-													<img alt="" class="img-fluid" src="img/products/product-5.jpg">
+													<img alt="" class="img-fluid" src="${demo_img_dir}/1/5.jpg">
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
@@ -258,7 +259,7 @@
 														<span class="product-thumb-info-act-left"><em>View</em></span>
 														<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 													</span>
-													<img alt="" class="img-fluid" src="img/products/product-6.jpg">
+													<img alt="" class="img-fluid" src="${demo_img_dir}/1/6.jpg">
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
@@ -283,7 +284,7 @@
 														<span class="product-thumb-info-act-left"><em>View</em></span>
 														<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 													</span>
-													<img alt="" class="img-fluid" src="img/products/product-7.jpg">
+													<img alt="" class="img-fluid" src="${demo_img_dir}/1/7.jpg">
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
@@ -307,7 +308,7 @@
 														<span class="product-thumb-info-act-left"><em>View</em></span>
 														<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 													</span>
-													<img alt="" class="img-fluid" src="img/products/product-8.jpg">
+													<img alt="" class="img-fluid" src="${demo_img_dir}/1/8.jpg">
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
@@ -334,7 +335,7 @@
 														<span class="product-thumb-info-act-left"><em>View</em></span>
 														<span class="product-thumb-info-act-right"><em><i class="fa fa-plus"></i> Details</em></span>
 													</span>
-													<img alt="" class="img-fluid" src="img/products/product-9.jpg">
+													<img alt="" class="img-fluid" src="${demo_img_dir}/1/9.jpg">
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
