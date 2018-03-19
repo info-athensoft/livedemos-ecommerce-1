@@ -51,12 +51,12 @@ id="WebApp_ID" version="3.1">  -->
 
 	<servlet>
 		<description></description>
-		<display-name>livedemo</display-name>
-		<servlet-name>livedemo</servlet-name>
+		<display-name>livedemo_ecommerce_1</display-name>
+		<servlet-name>livedemo_ecommerce_1</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>livedemo</servlet-name>
+		<servlet-name>livedemo_ecommerce_1</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	<error-page>
