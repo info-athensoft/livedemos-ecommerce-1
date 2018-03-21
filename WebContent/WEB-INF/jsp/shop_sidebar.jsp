@@ -5,12 +5,12 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <!-- global variables settings -->
-<c:set var="webapp_name" value="/livedemos/ecommerce/1"/>
+<c:set var="webapp_name" value="/livedemos-ecommerce-1"/>
 <!-- END global variables settings -->
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="inc"/>
-<c:set var="demo_img_dir" value="/livedemos/ecommerce/1/demo_images/prod"/>
+<c:set var="demo_img_dir" value="/livedemos-ecommerce-1/demo_images/prod"/>
 <!-- END page variables -->
 
 <!-- i18n -->

@@ -5,7 +5,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <!-- global variables settings -->
-<c:set var="webapp_name" value="/livedemos/ecommerce/1"/>
+<c:set var="webapp_name" value="/livedemos-ecommerce-1"/>
 <!-- END global variables settings -->
 
 <!-- page variables  -->
@@ -116,7 +116,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-7 py-4">
-								<h1>Welcome to our <strong>Live Demos</strong></h1>
+								<h1><strong>Live Demos</strong> of E-Commerce Website </h1>
 								<p class="lead">Here you may evaluate look and feel, visual effects, interactions,  functionalities and how the website works.</p>
 								<a href="${webapp_name}/shop-sidebar.html" class="btn btn-light btn-lg mb-5">VIEW DEMO</a> <span class="arrow hlt" style="top: 10px;"></span>
 							</div>

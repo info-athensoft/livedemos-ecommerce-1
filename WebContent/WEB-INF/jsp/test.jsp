@@ -5,7 +5,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <!-- global variables settings -->
-<c:set var="webapp_name" value=""/>
+<c:set var="webapp_name" value="/livedemos-ecommerce-1"/>
 <!-- END global variables settings -->
 
 <!-- i18n -->

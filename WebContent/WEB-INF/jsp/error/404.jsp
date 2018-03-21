@@ -41,7 +41,7 @@
 		<!-- Bing tracking -->	
 		<meta name="msvalidate.01" content="A726798BCB4A23B609BF80FE1E7D77D8" />
 		
-		<title>404</title>
+		<title><spring:message code="head-title-sitemap"/></title>
 
 		<meta name="keywords" content="" />
 		<meta name="description" content="">
@@ -110,7 +110,7 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1>404 Page Not Found</h1>
+								<h1><spring:message code="page-title-sitemap"/></h1>
 							</div>
 						</div>
 					</div>
